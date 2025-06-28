@@ -1,0 +1,1 @@
+Your are setting up a new server to run the "stuff.py" script on... Unfortunetly the script doesn't run normally, so you need to setup some environment variable and a file in the working directory for it to function correctly... See if you can figure it out just by reading the python script... (YOUR ROLE IS TO SETUP THE ENVIRONMENT NOT TO CHANGE THE stuff.py SCRIPT).
