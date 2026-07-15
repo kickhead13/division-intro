@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>VueJS Exercise 2</title>
+  </head>
+  <body>
+    <div id="app">
+      <h1>{{ message }}</h1>
+    </div>
+
+    <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
+    <script>
+      const { createApp } = Vue;
+
+      createApp({
+        data() {
+          return {
+            message: "Loading...",
+          };
+        },
+        async mounted() {
+          // TODO: fetch something from a public API and put the text
+          // you get back into `this.message`.
+        },
+      }).mount("#app");
+    </script>
+  </body>
+</html>
